@@ -47,7 +47,7 @@ $$
 
 $$
 \begin{aligned}
-\lim_{n \to \infty} B(k; n, p) = & \lim_{n \to \infty}  {{n}\choose{k}}  p^k(1-p)^{n-k} \\
+\lim_{n \to \infty} B(k; n, p) = & \lim_{n \to \infty}  { {n}\choose{k} } p^k(1-p)^{n-k} \\
 = & \lim_{n \to \infty}  \dfrac{n!}{k!(n-k)!}(\dfrac{\lambda}{n})^k  (1-\dfrac{\lambda}{n})^{n-k}  \\
 = & \lim_{n \to \infty}  \left[  \dfrac{n!}{(n-k)!  n^k} \right]  \left[  \dfrac{\lambda^k}{k!}  (1-\dfrac{\lambda}{n})^{n}  \right]  \left[  (1-\dfrac{\lambda}{n})^{-k}\right]  \\
 = &  1\left[  \dfrac{\lambda^k}{k!}  e^{-\lambda}\right] 1 \\
